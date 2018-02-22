@@ -1,0 +1,25 @@
+{
+    "ssm_assume_role_name": "ec2ParameterStore",
+    "ssm_parameter_prefix": "/ami/testing",
+    "share_accounts": [
+        "509454428753"
+    ],
+    "supported_regions": [
+        "ca-central-1",
+        "us-east-1"
+    ],
+    "automation_document": {
+        "name": "Ap-GenerateAmiWithTags",
+        "parameters": {
+            "SourceAmiId": [
+                "ami-224dc846"
+            ],
+            "TargetAmiName": [
+                "AMI_from_{{SourceAmiId}}_on_{{global:DATE_TIME}}"
+            ],
+            "InstanceType": [
+                "t2.micro"
+            ]
+        }
+    }
+}
