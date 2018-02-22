@@ -1,5 +1,5 @@
 {
-    "ssm_assume_role_name": "ec2ParameterStore",
+    "ssm_assume_role_name": "ec2PutParameterStore",
     "ssm_parameter_prefix": "/ami/testing",
     "share_accounts": [
         "509454428753"
