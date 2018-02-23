@@ -9,7 +9,7 @@
         "us-east-1"
     ],
     "automation_document": {
-        "name": "Ap-GenerateAmiWithTags",
+        "name": "AWS-UpdateLinuxAmi",
         "parameters": {
             "SourceAmiId": [
                 "ami-224dc846"
