@@ -1,9 +1,23 @@
 {
+    "ssm_assume_role_name": "ec2PutParameterStore",
+    "ssm_parameter_prefix": "/ami/testing",
+    "share_accounts": [
+        "509454428753"
+    ],
+    "supported_regions": [
+        "ca-central-1"
+    ],
     "automation_document": {
-        "name": "AWS-TerminateEC2Instance",
+        "name": "AWS-UpdateLinuxAmi",
         "parameters": {
-            "InstanceId": [
-                "i-020e4570c0f124025"
+            "SourceAmiId": [
+                "ami-224dc846"
+            ],
+            "TargetAmiName": [
+                "AMI_from_{{SourceAmiId}}_on_{{global:DATE_TIME}}"
+            ],
+            "InstanceType": [
+                "t2.micro"
             ]
         }
     }
