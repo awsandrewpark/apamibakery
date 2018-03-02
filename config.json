@@ -11,7 +11,7 @@
         "name": "AWS-UpdateLinuxAmi",
         "parameters": {
             "SourceAmiId": [
-                "ami-224dc846"
+                "ami-a954d1cd"
             ],
             "TargetAmiName": [
                 "AMI_from_{{SourceAmiId}}_on_{{global:DATE_TIME}}"
