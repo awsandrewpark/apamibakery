@@ -8,7 +8,7 @@
         "ca-central-1"
     ],
     "automation_document": {
-        "name": "AWS-UpdateLinuxAmi",
+        "name": "AP-AMIGenWithTags.json",
         "parameters": {
             "SourceAmiId": [
                 "ami-a954d1cd"
