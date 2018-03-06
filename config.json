@@ -2,8 +2,7 @@
     "ssm_assume_role_name": "ec2PutParameterStore",
     "ssm_parameter_prefix": "/ami/testing",
     "share_accounts": [
-        "487264470197",
-        "509454428753"
+        "487264470197"
     ],
     "supported_regions": [
         "ca-central-1"
